@@ -1,22 +1,36 @@
 # HEMA Club
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This project is to promote a mock HEMA (Historical European Martial Arts) club.
+The webpage will serve both potiental members and current members.
+The overall goal of this website is to promote HEMA intrest and provide information about the club.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+There would typically be 3 types of users visiting this site.
+User A  - A current member who wants to view club news, pictures, competitions, or be redirected to social channels.
+        - User A can achieve these goal through the nav links on all pages of the site. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+User B  - A user wanting to join this club. Perhaps this user was refered to this site by a friend or event.
+        - User B can achieve this goal on any page with the sign up button.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+User C  - A user interested in HEMA and wants to know more about HEMA-clubs.
+        - User C can achieve this goal from information found on the Home and HEMA-history pages.
+
+This project attempts to cater to all three user types in helping the user achieve their goals quickly with a clean navigation bar and a non-linear narrative.
 
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
+ Home
+ News
+ Courses
+ Scheduale
+ Competitions
+ Gallery
+ HEMA History
+ Contact
+
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -32,8 +46,12 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- HTML5
+- CSS3
+- Bootstrap 4.4
+- Font Awesome
+- Hover.css
+
 
 
 ## Testing
@@ -75,7 +93,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from ...
+    - Pixabay 
+    - Pexels
+    - Unsplash
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from two HEMA club websites. 
+- Blood and Iron is a HEMA club with a modern website. (https://www.bloodandiron.ca/)
+- SPIFF is an old HEMA website which is an example of the basic needs of a club website. (http://www.spiffaktning.se/index.php)
