@@ -10,6 +10,12 @@ body {
 .footer-row {
   background-color: #855917;
 }
+
+/*--------------------------------------------Navbar Hamburger Icon*/
+.navbar.navbar-9 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8");
+}
+
 /*--------------------------------------------Webpage default overrides*/
 body {
   font-family: "Raleway", sans-serif;
