@@ -5,7 +5,7 @@ body {
   background-color: #eeeeee;
 }
 .header-nav {
-  background-color: #3f7a18b7;
+  background-color: #3f7a18;
 }
 .footer-row {
   background-color: #855917;
@@ -51,6 +51,10 @@ hr {
   border-top: 0;
   margin: 0;
 }
+
+.row{
+    margin: 0;
+}
 /*--------------------------------------------Header*/
 .logo {
   background: url("../images/logo.png");
@@ -70,11 +74,23 @@ hr {
 /*--------------------------------------------Hero Images*/
 .hero-image-index {
   background: url("../images/indexhero.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-width: 100%;
-  min-height: 300px;
+  width: 100%;
+  min-height: 250px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.container{
+    border: 2px solid #303030;
+    margin-top: 5px;
+}
+
+.div-who-are-we,.div-what-is-hema,.div-the-benifits{
+    border-width: 1px solid #000;
 }
 /*--------------------------------------------Footer*/
 .footer-row,
