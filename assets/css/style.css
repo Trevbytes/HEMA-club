@@ -24,7 +24,6 @@ body {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-
 }
 .col-3,
 .col-6,
@@ -89,14 +88,14 @@ a {
   color: rgb(252, 200, 58);
 }
 .navbar-light .navbar-brand {
-    color: rgb(252, 200, 58);
+  color: rgb(252, 200, 58);
 }
-.navbar-light .navbar-nav .active>.nav-link {
-    color: rgb(252, 200, 58);
+.navbar-light .navbar-nav .active > .nav-link {
+  color: rgb(252, 200, 58);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(252, 200, 58, 0.5);
+  color: rgba(252, 200, 58, 0.5);
 }
 /*--------------------------------------------Hero Images*/
 .hero-image-index {
@@ -122,10 +121,13 @@ a {
 
 /*--------------------------------------------Article blocks*/
 .container {
+  background: url("../images/parchmentcolor.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border: 2px solid #303030;
   margin-top: 5px;
   margin-bottom: 5px;
-
 }
 
 .div-who-are-we,
@@ -148,4 +150,32 @@ a {
   color: #fefefe;
   font-family: "Yatra One", cursive;
   font-weight: 200;
+}
+
+#club-address {
+  margin: 0;
+  font-size: 80%;
+}
+
+#address-block {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 70%;
+  margin-left: 5px;
+}
+
+#address-list {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+#faq-block {
+  text-align: center;
+}
+
+#faq-text {
+  margin: 0;
 }
