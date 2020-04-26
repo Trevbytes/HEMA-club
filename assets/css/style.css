@@ -2,17 +2,17 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Yatra+One:100,200,300,400,500,600,700&display=swap");
 /*---------------------------------------------bg-colors*/
 body {
-  background-color: #fcf6e4;
+  background-color: #fff3f3;
 }
 .header-nav {
-  background-color: #3f7a18;
+  background-color: #6d1212;
 }
 .footer-row {
-  background-color: #855917;
+  background-color: #330f44;
 }
 
 .bg-block {
-  background-color: #cfc06b;
+  background-color: rgb(252, 200, 58);
 }
 
 /*--------------------------------------------Navbar Hamburger Icon*/
@@ -24,6 +24,7 @@ body {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+
 }
 .col-3,
 .col-6,
@@ -78,11 +79,24 @@ a {
   width: 100%;
   top: 0;
   z-index: 5;
-
+  color: rgb(252, 200, 58);
+  border-bottom: 2px solid rgb(252, 200, 58);
 }
+
 /*--------------------------------------------Navbar*/
 .menubars {
   margin-right: 0;
+  color: rgb(252, 200, 58);
+}
+.navbar-light .navbar-brand {
+    color: rgb(252, 200, 58);
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(252, 200, 58);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(252, 200, 58, 0.5);
 }
 /*--------------------------------------------Hero Images*/
 .hero-image-index {
@@ -111,12 +125,19 @@ a {
   border: 2px solid #303030;
   margin-top: 5px;
   margin-bottom: 5px;
+
 }
 
 .div-who-are-we,
 .div-what-is-hema,
 .div-the-benifits {
   border-width: 1px solid #000;
+}
+
+@media (min-width: 768px) {
+  .hero-image-index {
+    min-height: 700px;
+  }
 }
 /*--------------------------------------------Footer*/
 .footer-row,
@@ -125,4 +146,6 @@ a {
   padding: 0;
   flex-wrap: nowrap;
   color: #fefefe;
+  font-family: "Yatra One", cursive;
+  font-weight: 200;
 }
