@@ -15,6 +15,26 @@ body {
   background-color: rgb(252, 200, 58);
 }
 
+.card-header {
+    background-color: #6d1212;
+}
+
+.btn-link {
+    color: rgb(252, 200, 58);
+}
+
+.btn-link:hover{
+    color: #330f44;
+}
+
+.bg-collapse{
+    background-color: #fff3f3;
+}
+
+.test-col{
+    color: white;
+}
+
 /*--------------------------------------------Navbar Hamburger Icon*/
 .navbar.navbar-9 .navbar-toggler-icon {
   background-image: url("https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8");
@@ -60,6 +80,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 .row {
   margin: 0;
 }
@@ -128,12 +149,25 @@ a {
   margin-right: auto;
 }
 
+.hero-image-courses{
+    background: url("../images/courseshero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 75px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
 @media (min-width: 768px) {
   .hero-image-index {
     min-height: 700px;
   }
-
-
 }
 
 /*--------------------------------------------Sword Image*/
@@ -158,12 +192,6 @@ a {
   margin-bottom: 5px;
 }
 
-.div-who-are-we,
-.div-what-is-hema,
-.div-the-benifits {
-  border-width: 1px solid #000;
-}
-
 @media (min-width: 768px) {
   .hero-image-index {
     min-height: 700px;
@@ -172,6 +200,10 @@ a {
 
 .date-text{
 line-height: 75px;
+}
+
+.card-header{
+    border: 2px solid rgb(252, 200, 58);
 }
 /*--------------------------------------------Footer*/
 .footer-row,
