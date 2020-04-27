@@ -16,23 +16,23 @@ body {
 }
 
 .card-header {
-    background-color: #6d1212;
+  background-color: #6d1212;
 }
 
 .btn-link {
-    color: rgb(252, 200, 58);
+  color: rgb(252, 200, 58);
 }
 
-.btn-link:hover{
-    color: #330f44;
+.btn-link:hover {
+  color: #330f44;
 }
 
-.bg-collapse{
-    background-color: #fff3f3;
+.bg-collapse {
+  background-color: #fff3f3;
 }
 
-.test-col{
-    color: white;
+.test-col {
+  color: white;
 }
 
 /*--------------------------------------------Navbar Hamburger Icon*/
@@ -149,8 +149,8 @@ a {
   margin-right: auto;
 }
 
-.hero-image-courses{
-    background: url("../images/courseshero.jpg");
+.hero-image-courses {
+  background: url("../images/courseshero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -161,17 +161,50 @@ a {
   margin-top: 75px;
   max-width: 1200px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
 }
 
+.hero-image-faq {
+  background: url("../images/faqhero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 75px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-image-signup {
+  background: url("../images/signuphero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 75px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (min-width: 768px) {
-  .hero-image-index {
+  .hero-image-index,
+  .hero-image-faq,
+  .hero-image-signup,
+  .hero-image-courses,
+  .hero-image-news {
     min-height: 700px;
   }
 }
 
 /*--------------------------------------------Sword Image*/
-  .sword-img{
+.sword-img {
   background: url("../images/swordheader.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -180,7 +213,7 @@ a {
   height: 75px;
   border-top: 0;
   /* margin: 0; */
-  }
+}
 /*--------------------------------------------Article blocks*/
 .container {
   background: url("../images/parchmentcolor.png");
@@ -198,12 +231,12 @@ a {
   }
 }
 
-.date-text{
-line-height: 75px;
+.date-text {
+  line-height: 75px;
 }
 
-.card-header{
-    border: 2px solid rgb(252, 200, 58);
+.card-header {
+  border: 2px solid rgb(252, 200, 58);
 }
 /*--------------------------------------------Footer*/
 .footer-row,
