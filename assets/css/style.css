@@ -8,7 +8,7 @@ body {
   background-color: #6d1212;
 }
 .footer-row {
-  background-color: #330f44;
+  background-color: #6d1212;
 }
 
 .bg-block {
@@ -244,9 +244,14 @@ a {
   margin: 0;
   padding: 0;
   flex-wrap: nowrap;
-  color: #fefefe;
+  color: rgb(252, 200, 58);
   font-family: "Yatra One", cursive;
   font-weight: 200;
+}
+
+.footer-row {
+    border-top: 2px solid rgb(252, 200, 58);
+    padding: 4px;
 }
 
 #club-address {
