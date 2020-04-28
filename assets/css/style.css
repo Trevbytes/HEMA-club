@@ -42,7 +42,7 @@ body {
 .col-3,
 .col-6,
 .col-2,
-.col-8 {
+.col-8, .col-10, .col-12 {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -78,6 +78,7 @@ a {
 .row {
   margin: 0;
 }
+
 /*--------------------------------------------Header*/
 .logo {
   /* background: url("../images/logo.png"); */
@@ -237,7 +238,7 @@ a {
   background-repeat: no-repeat;
   border: 2px solid #303030;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -295,5 +296,10 @@ a {
 
 #faq-text {
   margin: 0;
+}
+
+.faq-questions{
+    list-style-type: none;
+    text-align: left;
 }
 
