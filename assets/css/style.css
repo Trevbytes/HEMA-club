@@ -31,7 +31,7 @@ body {
 
 /*--------------------------------------------Navbar Hamburger Icon*/
 .navbar.navbar-9 .navbar-toggler-icon {
-  background-image: url("https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8");
+  background-image: url("https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/");
 }
 
 /*--------------------------------------------Webpage default overrides*/
@@ -80,28 +80,44 @@ a {
 }
 /*--------------------------------------------Header*/
 .logo {
-  background: url("../images/logo.png");
+  /* background: url("../images/logo.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .header-nav {
   font-family: "Yatra One", cursive;
-  flex-wrap: nowrap;
-  margin: 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 5;
   color: rgb(252, 200, 58);
   border-bottom: 2px solid rgb(252, 200, 58);
 }
 
 /*--------------------------------------------Navbar*/
+
+.navbar{
+    float: right;
+    flex-wrap: nowrap;
+}
+
+.navbar-toggler{
+    float: right;
+    text-align: right;
+}
+
+.navbar-toggler:focus{
+    color: rgba(252,200,58);
+    border-color: rgb(252, 200, 58);
+    text-decoration: currentColor;
+}
+.navbar-collapse{
+    float: right;
+    text-align: right;
+}
 .menubars {
   margin-right: 0;
   color: rgb(252, 200, 58);
+  position: right;
 }
+
 .navbar-light .navbar-brand {
   color: rgb(252, 200, 58);
 }
@@ -111,6 +127,11 @@ a {
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(252, 200, 58, 0.5);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(252,200,58);
+    border-color: rgb(252, 200, 58);
 }
 /*--------------------------------------------Hero Images*/
 .hero-image-index {
@@ -122,8 +143,8 @@ a {
   min-height: 300px;
   height: 100%;
   overflow: hidden;
-  margin-top: 75px;
-  max-width: 1200px;
+  margin-top: 0px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -137,8 +158,8 @@ a {
   min-height: 300px;
   height: 100%;
   overflow: hidden;
-  margin-top: 75px;
-  max-width: 1200px;
+  margin-top: 0px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,8 +173,8 @@ a {
   min-height: 300px;
   height: 100%;
   overflow: hidden;
-  margin-top: 75px;
-  max-width: 1200px;
+  margin-top: 0px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -167,8 +188,8 @@ a {
   min-height: 300px;
   height: 100%;
   overflow: hidden;
-  margin-top: 75px;
-  max-width: 1200px;
+  margin-top: 0px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -182,8 +203,8 @@ a {
   min-height: 300px;
   height: 100%;
   overflow: hidden;
-  margin-top: 75px;
-  max-width: 1200px;
+  margin-top: 0px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -275,3 +296,4 @@ a {
 #faq-text {
   margin: 0;
 }
+
