@@ -1,18 +1,16 @@
 /*---------------------------------------------Google Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Raleway|Yatra+One:100,200,300,400,500,600,700&display=swap");
-/*---------------------------------------------bg-colors*/
+/*---------------------------------------------Background-colors*/
 body {
   background-color: #fff3f3;
 }
+
 .header-nav {
   background-color: #6d1212;
 }
+
 .footer-row {
   background-color: #6d1212;
-}
-
-.bg-block {
-  background-color: rgb(252, 200, 58);
 }
 
 .card-header {
@@ -24,15 +22,11 @@ body {
 }
 
 .btn-link:hover {
-  color: #330f44;
+  color: #4d4d4d;
 }
 
 .bg-collapse {
   background-color: #fff3f3;
-}
-
-.test-col {
-  color: white;
 }
 
 /*--------------------------------------------Navbar Hamburger Icon*/
