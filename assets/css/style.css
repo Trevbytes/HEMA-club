@@ -75,6 +75,9 @@ a {
   color: inherit;
 }
 
+a:hover{
+    color: #1a1a1a;
+}
 .row {
   margin: 0;
 }
@@ -253,6 +256,10 @@ a {
 
 .card-header {
   border: 2px solid rgb(252, 200, 58);
+}
+
+.date-span{
+    margin-left: 25%;
 }
 /*--------------------------------------------Footer*/
 .footer-row,
