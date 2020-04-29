@@ -102,6 +102,12 @@ a:hover{
     flex-wrap: nowrap;
 }
 
+.quote{
+    margin-top: 10px;
+}
+.nav-item{
+text-align: center;
+}
 .navbar-toggler{
     float: right;
     text-align: right;
