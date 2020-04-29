@@ -148,6 +148,9 @@ a:hover {
   color: rgba(252, 200, 58);
   border-color: rgb(252, 200, 58);
 }
+.navbar.navbar-4 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=FCC83A');
+}
 /*--------------------------------------------Hero Images*/
 .hero-image-index {
   background: url("../images/indexhero.jpg");
