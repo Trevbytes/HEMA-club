@@ -9,6 +9,10 @@ body {
   background-color: #6d1212;
 }
 
+.header-hidden-nav {
+  background-color: #6d1212;
+  border-bottom: 2px solid rgb(252, 200, 58);
+}
 .footer-row {
   background-color: #6d1212;
 }
@@ -101,7 +105,7 @@ a:hover {
 
 .navbar {
   float: right;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
 }
 
 .quote {

@@ -11,18 +11,12 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <!--Hover.css-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css.css"
-    />
-    <!--My CSS-->
+    <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Iron Forged HEMA</title>
   </head>
-
   <body>
-    <!--Header - with logo nav and social links.-->
+    <!-- Header -->
     <header>
       <div class="row header-nav">
         <div class="col-3 logo">
@@ -32,16 +26,16 @@
               width="75"
               height="80"
               class="d-inline-block align-top"
-              alt=""
+              alt="logo"
             />
-            Iron Forged
+            Iron Forged HEMA
           </a>
         </div>
         <div class="col-6">
           <div class="row">
             <div class="col-2"></div>
-            <div class="col-8">
-              <span class="d-none d-sm-block"
+            <div class="col-8 center">
+              <span class="d-none d-md-block quote"
                 >“A good instructor teaches students how to fight, a great
                 instructor teaches students how to live” – Ricardo Almeida</span
               >
@@ -50,18 +44,15 @@
           </div>
         </div>
         <div class="col-3 menu-bars my-auto">
-          <!--Navbar from mdbootstrap.com-->
-          <nav class="navbar navbar-light navbar-1 white navbar-expand-lg">
-            <!-- Navbar brand -->
-            <!-- <a class="navbar-brand" href="index.html">HEMA</a> -->
-
+          <!-- Navbar 1 (help from mdbootstrap.com) -->
+          <nav class="navbar navbar-light navbar-1 navbar-expand-lg">
             <!-- Collapse button -->
             <button
               class="navbar-toggler"
               type="button"
               data-toggle="collapse"
-              data-target="#navbarSupportedContent15"
-              aria-controls="navbarSupportedContent15"
+              data-target="#navbar-small-screens"
+              aria-controls="navbar-small-screens"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
@@ -69,8 +60,8 @@
             </button>
 
             <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-              <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbar-large-screens">
+              <!-- Links for larger screens -->
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="./index.html"
@@ -101,7 +92,44 @@
               </ul>
             </div>
           </nav>
-          <!--/.Navbar-->
+          <!--/Navbar-->
+        </div>
+      </div>
+      <!--Hidden Navbar 2, for smaller screens (help from mdbootstrap.com)-->
+      <div class="row"></div>
+      <div
+        class="col-12 collapse navbar-collapse navbar-light header-hidden-nav"
+        id="navbar-small-screens"
+      >
+        <div class="p-2">
+          <ul class="navbar-nav d-inline-block">
+            <li class="nav-item list-inline-item">
+              <a class="nav-link" href="./index.html"
+                >Home <i class="fas fa-home"></i
+              ></a>
+            </li>
+            <li class="nav-item list-inline-item">
+              <a class="nav-link" href="./news.html"
+                >News <i class="fas fa-newspaper"></i
+              ></a>
+            </li>
+            <li class="nav-item list-inline-item">
+              <a class="nav-link" href="./courses.html"
+                >Courses <i class="fas fa-journal-whills"></i
+              ></a>
+            </li>
+            <li class="nav-item active list-inline-item">
+              <a class="nav-link" href="./faq.html"
+                >FAQ <i class="fas fa-question-circle"></i
+                ><span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item list-inline-item">
+              <a class="nav-link" href="./signup.html"
+                >Sign Up <i class="fas fa-scroll"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -189,26 +217,27 @@
       </div>
     </footer>
     <!--/Footer-->
+    <!--Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/e0af4595f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--/Scripts-->
   </body>
-  <!--Scripts-->
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
-  <!--Font Awesome-->
-  <script
-    src="https://kit.fontawesome.com/e0af4595f7.js"
-    crossorigin="anonymous"
-  ></script>
 </html>
