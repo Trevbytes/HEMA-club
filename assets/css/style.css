@@ -42,7 +42,9 @@ body {
 .col-3,
 .col-6,
 .col-2,
-.col-8, .col-10, .col-12 {
+.col-8,
+.col-10,
+.col-12 {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -75,8 +77,8 @@ a {
   color: inherit;
 }
 
-a:hover{
-    color: #1a1a1a;
+a:hover {
+  color: #1a1a1a;
 }
 .row {
   margin: 0;
@@ -97,30 +99,30 @@ a:hover{
 
 /*--------------------------------------------Navbar*/
 
-.navbar{
-    float: right;
-    flex-wrap: nowrap;
+.navbar {
+  float: right;
+  flex-wrap: nowrap;
 }
 
-.quote{
-    margin-top: 10px;
+.quote {
+  margin-top: 10px;
 }
-.nav-item{
-text-align: center;
+.nav-item {
+  text-align: center;
 }
-.navbar-toggler{
-    float: right;
-    text-align: right;
+.navbar-toggler {
+  float: right;
+  text-align: right;
 }
 
-.navbar-toggler:focus{
-    color: rgba(252,200,58);
-    border-color: rgb(252, 200, 58);
-    text-decoration: currentColor;
+.navbar-toggler:focus {
+  color: rgba(252, 200, 58);
+  border-color: rgb(252, 200, 58);
+  text-decoration: currentColor;
 }
-.navbar-collapse{
-    float: right;
-    text-align: right;
+.navbar-collapse {
+  float: right;
+  text-align: right;
 }
 .menubars {
   margin-right: 0;
@@ -140,8 +142,8 @@ text-align: center;
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(252,200,58);
-    border-color: rgb(252, 200, 58);
+  color: rgba(252, 200, 58);
+  border-color: rgb(252, 200, 58);
 }
 /*--------------------------------------------Hero Images*/
 .hero-image-index {
@@ -265,8 +267,14 @@ text-align: center;
   border: 2px solid rgb(252, 200, 58);
 }
 
-.date-span{
-    margin-left: 25%;
+.date-span {
+  margin-left: 25%;
+}
+
+@media (max-width: 320px) {
+  .date-span {
+    margin-left: 0;
+  }
 }
 /*--------------------------------------------Footer*/
 .footer-row,
@@ -280,8 +288,8 @@ text-align: center;
 }
 
 .footer-row {
-    border-top: 2px solid rgb(252, 200, 58);
-    padding: 4px;
+  border-top: 2px solid rgb(252, 200, 58);
+  padding: 4px;
 }
 
 #club-address {
@@ -312,8 +320,7 @@ text-align: center;
   margin: 0;
 }
 
-.faq-questions{
-    list-style-type: none;
-    text-align: left;
+.faq-questions {
+  list-style-type: none;
+  text-align: left;
 }
-
