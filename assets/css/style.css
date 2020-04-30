@@ -75,6 +75,10 @@ a:hover {
   margin: 0;
 }
 
+.btn-link {
+    font-weight: 400;
+    color: rgb(252, 200, 58);
+}
 /*--------------------------------------------Header*/
 
 .header-nav {
