@@ -1,8 +1,8 @@
-# HEMA Club
+# Iron Forged HEMA Club
 
 This project is to promote a mock HEMA (Historical European Martial Arts) club.
 The webpage will serve both potiental members and current members.
-The overall goal of this website is to promote HEMA intrest and provide information about the club.
+The overall goal of this website is to promote HEMA interest and provide information about the club.
 
 ## UX
 
@@ -16,12 +16,12 @@ User A:
 User B:
 
 - A user wanting to join this club.
-- User B can achieve this goal on any page from the "Sign Up" nav link.
+- User B can achieve this goal on any page from the "Sign Up" nav link, then filling out and sending in the Sign Up form.
 
 User C:
 
 - A user interested in HEMA and wants to know more about HEMA-clubs.
-- User C can achieve this goal from information found on the Home and FAQ pages.
+- User C can achieve this goal from information found on the Home, Courses and FAQ pages.
 
 This project attempts to cater to all three user types in helping the user achieve their goals quickly with a clean navigation bar and a non-linear narrative.
 
@@ -33,19 +33,11 @@ In this section, you should go over the different parts of your project, and des
 - News - A page for the club to post news about the club.
 - Courses - A page to browse through the different courses offered by the club.
 - FAQ - A page with answers to frequently asked questions.
-- "Sign Up" form page - A page to send contact information to the club to be contaceted about the users specifed course intrests and sign up for the courses.
-
-### Existing Features
-
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- "Sign Up" form page - A page to send contact information to the club to be contacted about the user's specifed course(s) and sign up for the courses. Currently this form does not send information anywhere.
 
 ### Features Left to Implement
 
+- More content about the benefits of HEMA, linked to the respective text on the home page. 
 - Scheduale/Calender for events and courses.
 - A page with information and links to HEMA tournaments.
 - A gallery with pictures and videos from the club.
@@ -59,7 +51,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - CSS3
 - Bootstrap 4.4 https://getbootstrap.com/ - Used to help structure the grid of the websites. Used also for the navigation bar and accordian styled information in courses.html.
 - Font Awesome https://fontawesome.com/icons?d=gallery - Used to add icons to the websites.
-- Hover.css(Not yet implemented)
+- Google Fonts https://fonts.google.com/
 
 ## Testing
 
@@ -83,21 +75,16 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project is hosted on GitHub Pages with only one deployed version. https://trevbytes.github.io/HEMA-club/index.html
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 ## Credits
+
 ### Content
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for "HEMA - What is it?" was copied from the [Wikipedia article of HEMA](https://en.wikipedia.org/wiki/Historical_European_martial_arts)
 
 ### Media
+
 - The photos used in this site were obtained from the following free-use picture sites ...
   - Pixabay https://pixabay.com/
   - Pexels https://www.pexels.com/
