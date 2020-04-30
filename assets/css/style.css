@@ -90,9 +90,9 @@ a:hover {
 
 /*--------------------------------------------Navbar*/
 
-.navbar {
+/* .navbar {
   float: right;
-}
+} */
 
 .navbar p {
   font-family: "Girassol", cursive;
@@ -106,6 +106,7 @@ a:hover {
 
 .quote {
   margin-top: 10px;
+  width: 600px;
 }
 .nav-item {
   text-align: center;
