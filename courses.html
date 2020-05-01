@@ -18,95 +18,45 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="row header-nav">
-        <div class="col-3 logo">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="./assets/images/logo.png"
-              width="75"
-              height="80"
-              class="d-inline-block align-top"
-              alt="logo"
-            />
-            Iron Forged HEMA
-          </a>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light header-nav">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mr-left" href="#">
+          <img
+            src="./assets/images/logo.png"
+            width="70"
+            height="80"
+            class="d-inline-block align-top"
+            alt="logo"
+          />Iron Forged HEMA</a
+        >
+        <div class="d-none d-md-block quote">
+          “A good instructor teaches students how to fight, a great instructor
+          teaches students how to live” – Ricardo Almeida
         </div>
-        <div class="col-6">
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8 center">
-              <span class="d-none d-md-block quote"
-                >“A good instructor teaches students how to fight, a great
-                instructor teaches students how to live” – Ricardo Almeida</span
-              >
-            </div>
-            <div class="col-2"></div>
-          </div>
-        </div>
-        <div class="col-3 menu-bars my-auto">
-          <!-- Navbar 1 (help from mdbootstrap.com) -->
-          <nav class="navbar navbar-light navbar-4 navbar-expand-lg">
-            <!-- Collapse button -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbar-small-screens"
-              aria-controls="navbar-small-screens"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbar-large-screens">
-              <!-- Links for larger screens -->
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html"
-                    >Home <i class="fas fa-home"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./news.html"
-                    >News <i class="fas fa-newspaper"></i
-                  ></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="./courses.html"
-                    >Courses <i class="fas fa-journal-whills"></i
-                    ><span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./faq.html"
-                    >FAQ <i class="fas fa-question-circle"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./signup.html"
-                    >Sign Up <i class="fas fa-scroll"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <!--/Navbar-->
-        </div>
-      </div>
-      <!--Hidden Navbar 2, for smaller screens (help from mdbootstrap.com)-->
-      <div class="row"></div>
-      <div
-        class="col-12 collapse navbar-collapse navbar-light header-hidden-nav"
-        id="navbar-small-screens"
-      >
-        <div class="p-2 navbar-font">
-          <ul class="navbar-nav d-inline-block">
+        <!-- Collapse button -->
+        <button
+          class="navbar-toggler float-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#my-nav"
+          aria-controls="my-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse mr-right text-right" id="my-nav">
+          <!-- Links -->
+          <ul class="navbar-nav d-inline-block ml-auto">
             <li class="nav-item list-inline-item">
               <a class="nav-link" href="./index.html"
                 >Home <i class="fas fa-home"></i
-              ></a>
+                ></a
+              >
             </li>
             <li class="nav-item list-inline-item">
               <a class="nav-link" href="./news.html"
@@ -116,8 +66,7 @@
             <li class="nav-item active list-inline-item">
               <a class="nav-link" href="./courses.html"
                 >Courses <i class="fas fa-journal-whills"></i
-                ><span class="sr-only">(current)</span></a
-              >
+              ><span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item list-inline-item">
               <a class="nav-link" href="./faq.html"
@@ -130,8 +79,11 @@
               ></a>
             </li>
           </ul>
+          <!-- Links -->
         </div>
-      </div>
+        <!-- /Collapsible content -->
+      </nav>
+      <!--/.Navbar-->
     </header>
     <!--/Header-->
     <!--Heroimage-->

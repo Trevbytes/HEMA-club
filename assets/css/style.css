@@ -30,6 +30,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
+
 .col-3,
 .col-6,
 .col-2,
@@ -40,6 +41,7 @@ body {
   padding: 0;
   text-align: center;
 }
+
 h1,
 h2,
 h3,
@@ -48,10 +50,12 @@ h5 {
   font-family: "Girassol", cursive;
   font-weight: 600;
 }
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+
 hr {
   background: url("../images/swordheader.png");
   background-size: contain;
@@ -76,8 +80,8 @@ a:hover {
 }
 
 .btn-link {
-    font-weight: 400;
-    color: rgb(252, 200, 58);
+  font-weight: 400;
+  color: rgb(252, 200, 58);
 }
 /*--------------------------------------------Header*/
 
@@ -86,48 +90,33 @@ a:hover {
   font-weight: 600;
   color: rgb(252, 200, 58);
   border-bottom: 2px solid rgb(252, 200, 58);
+  padding-left: 10px;
 }
 
 /*--------------------------------------------Navbar*/
-
-/* .navbar {
-  float: right;
-} */
 
 .navbar p {
   font-family: "Girassol", cursive;
   font-weight: 600;
 }
 
-.navbar-font{
-    font-family: "Girassol", cursive;
-  font-weight: 600;  
+.navbar-font {
+  font-family: "Girassol", cursive;
+  font-weight: 600;
 }
 
 .quote {
-  margin-top: 10px;
-  width: 600px;
-}
-.nav-item {
+  margin-left: 8%;
+  margin-right: auto;
   text-align: center;
-}
-.navbar-toggler {
-  float: right;
-  text-align: right;
+  margin-top: 10px;
+  max-width: 40%;
 }
 
 .navbar-toggler:focus {
   color: rgba(252, 200, 58);
   border-color: rgb(252, 200, 58);
   text-decoration: currentColor;
-}
-.navbar-collapse {
-  float: right;
-  text-align: right;
-}
-.menubars {
-  margin-right: 0;
-  color: rgb(252, 200, 58);
 }
 
 .navbar-light .navbar-brand {
@@ -144,7 +133,7 @@ a:hover {
 .navbar-light .navbar-toggler {
   border-color: rgb(252, 200, 58);
 }
-.navbar.navbar-4 .navbar-toggler-icon {
+.navbar.header-nav .navbar-toggler-icon {
   background-image: url("https://mdbootstrap.com/img/svg/hamburger7.svg?color=FCC83A");
 }
 /*--------------------------------------------Hero Images*/
@@ -291,6 +280,13 @@ a:hover {
   background-color: #000000;
   border-color: rgb(252, 200, 58);
 }
+
+.faq-questions {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+}
+
 /*--------------------------------------------Footer*/
 .footer-row,
 .footer-row .col-3 {
@@ -333,10 +329,4 @@ a:hover {
 
 #faq-text {
   margin: 0;
-}
-
-.faq-questions {
-  list-style-type: none;
-  text-align: left;
-  padding-left: 0;
 }
