@@ -25,14 +25,14 @@ User C:
 
 This project attempts to cater to all three user types in helping the user achieve their goals quickly with a clean navigation bar and a non-linear narrative.
 
+The design of the pages was created with a medieval theme. Images, font and backround colors attempt to reflect this theme.
+
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-- Home - A home page with a brief descrition of the club and what HEMA is about.
-- News - A page for the club to post news about the club.
-- Courses - A page to browse through the different courses offered by the club.
-- FAQ - A page with answers to frequently asked questions.
+ 
+- Home page - A page with a brief descrition of the club and what HEMA is about.
+- News page - A page for the club to post news about the club.
+- Courses page - A page to browse through the different courses offered by the club.
+- FAQ page - A page with answers to frequently asked questions.
 - "Sign Up" form page - A page to send contact information to the club to be contacted about the user's specifed course(s) and sign up for the courses. Currently this form does not send information anywhere.
 
 ### Features Left to Implement
@@ -47,31 +47,33 @@ In this section, you should go over the different parts of your project, and des
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+- Github - https://github.com/ - To store a repository of my work.
+- GitPod - https://www.gitpod.io/ - The online workspace used to develop/code the project.
+
 - HTML5
 - CSS3
-- Bootstrap 4.4 https://getbootstrap.com/ - Used to help structure the grid of the websites. Used also for the navigation bar and accordian styled information in courses.html.
-- Font Awesome https://fontawesome.com/icons?d=gallery - Used to add icons to the websites.
-- Google Fonts https://fonts.google.com/
+- Javascript - Only used by Bootstrap. No Javascript was written by me.
+- Bootstrap 4.4 https://getbootstrap.com/ - Used to help structure the grid of the website. Used also for the navigation bar and accordian styled information in courses.html.
+- Font Awesome https://fontawesome.com/icons?d=gallery - Used to add icons to the website.
+- Google Fonts https://fonts.google.com/ - Used for the fonts on the website.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+This project has been texted extensively for display responsiveness and working nav links. I have tested the site in all display sizes in Chrome Dev Tools, Chrome, Internet Explorer, Firefox and Opera.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The quote text located in the navbar/header is only displayed on larger screens.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+All users can achieve their goals for coming to this website.
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+The sign up page does not send any information as it is beyond the purpose of this project. However, input in the fields of the form are required if one wants to successfully click the sign up button.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+All bugs found during testing have been fixed. The common bugs in this project were unintended sizing, position or color of the content.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+This project has been peer reviewed/tested from Code Institute's Slack channel.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+This project have been reviewed/tested by a senior web developer. A mentor provided by Code Institute during my studies.
+
+This project have been reviewed/tested by friends and family.
 
 ## Deployment
 
