@@ -83,7 +83,7 @@ a:hover {
   font-weight: 400;
   color: rgb(252, 200, 58);
 }
-/*--------------------------------------------Header*/
+/*--------------------------------------------Header/Navbar*/
 
 .header-nav {
   font-family: "Girassol", cursive;
@@ -91,18 +91,6 @@ a:hover {
   color: rgb(252, 200, 58);
   border-bottom: 2px solid rgb(252, 200, 58);
   padding-left: 10px;
-}
-
-/*--------------------------------------------Navbar*/
-
-.navbar p {
-  font-family: "Girassol", cursive;
-  font-weight: 600;
-}
-
-.navbar-font {
-  font-family: "Girassol", cursive;
-  font-weight: 600;
 }
 
 .quote {
