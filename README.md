@@ -45,8 +45,6 @@ The design of the pages was created with a medieval theme. Images, font and back
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - Github - https://github.com/ - To store a repository of my work.
 - GitPod - https://www.gitpod.io/ - The online workspace used to develop/code the project.
 
