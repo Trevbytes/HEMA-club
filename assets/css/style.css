@@ -166,17 +166,6 @@ a:hover {
   }
 }
 
-/*--------------------------------------------Sword Image*/
-.sword-img {
-  background: url("../images/swordheader.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left;
-  display: block;
-  height: 75px;
-  border-top: 0;
-}
-
 /*--------------------------------------------Article blocks*/
 .container {
   background: url("../images/parchmentcolor.png");
